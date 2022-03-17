@@ -1,0 +1,7 @@
+jsons:
+  jsonPath: "JSON/log.json"
+templateFilePathInfo:
+  templateFileDirectory: "Templates"
+  iOSFileName: "ios_log.stencil"
+  androidFileName: "android_log.stencil"
+outputDirectory: "LogGenSample/Generated"

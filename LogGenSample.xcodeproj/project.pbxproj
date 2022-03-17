@@ -13,6 +13,7 @@
 		68EE703727E30F110096D398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EE703527E30F110096D398 /* Main.storyboard */; };
 		68EE703927E30F120096D398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EE703827E30F120096D398 /* Assets.xcassets */; };
 		68EE703C27E30F120096D398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EE703A27E30F120096D398 /* LaunchScreen.storyboard */; };
+		68EE704427E3519F0096D398 /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EE704327E3519F0096D398 /* Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		68EE703827E30F120096D398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68EE703B27E30F120096D398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68EE703D27E30F120096D398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EE704327E3519F0096D398 /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Generated.swift; path = Generated/Generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		68EE702E27E30F110096D398 /* LogGenSample */ = {
 			isa = PBXGroup;
 			children = (
+				68EE704327E3519F0096D398 /* Generated.swift */,
 				68EE702F27E30F110096D398 /* AppDelegate.swift */,
 				68EE703127E30F110096D398 /* SceneDelegate.swift */,
 				68EE703327E30F110096D398 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EE703427E30F110096D398 /* ViewController.swift in Sources */,
+				68EE704427E3519F0096D398 /* Generated.swift in Sources */,
 				68EE703027E30F110096D398 /* AppDelegate.swift in Sources */,
 				68EE703227E30F110096D398 /* SceneDelegate.swift in Sources */,
 			);
